@@ -5,6 +5,10 @@
 //   projectId: 'proj_p0y19ec9j'
 // });
 
+require('dotenv').config();
+// parse JSON bodies for POST testing
+const PORT = process.env.PORT || 3002;
+
 const express = require('express');
 
 const app = express();

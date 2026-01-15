@@ -2,7 +2,10 @@ const express = require('express');
 
 const app = express();
 
+require('dotenv').config();
 // parse JSON bodies for POST testing
+const PORT = process.env.PORT || 3002;
+
 app.use(express.json());
 
 app.get('/api/app',(req,res)=>{
@@ -34,7 +37,7 @@ app.get('/api/headers', (req, res) => {
     res.json({ headers: req.headers });
 });
 
-app.listen(3002,()=>{
+app.listen(PORT,()=>{
     console.log("Server runned v2...")
 })
 
