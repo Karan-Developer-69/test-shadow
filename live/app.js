@@ -1,9 +1,9 @@
-// const Shadow = require('shadow-deploy-client');
+const Shadow = require('shadow-deploy-client');
 
-// const shadow = new Shadow({
-//   apiKey: 'sk_5e03iby11',
-//   projectId: 'proj_p0y19ec9j'
-// });
+const shadow = new Shadow({
+  apiKey: 'sk_5e03iby11',
+  projectId: 'proj_p0y19ec9j'
+});
 
 require('dotenv').config();
 // parse JSON bodies for POST testing
