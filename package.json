@@ -13,6 +13,6 @@
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
-    "shadow-deploy-client": "^1.0.0"
+    "shadow-deploy-client": "^1.0.1"
   }
 }
