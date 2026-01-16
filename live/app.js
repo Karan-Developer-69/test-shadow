@@ -1,8 +1,8 @@
 const Shadow = require('shadow-deploy-client');
 
 const shadow = new Shadow({
-  apiKey: 'sk_owmyusqkd',
-  projectId: 'proj_h30awkbij'
+  apiKey: 'sk_jcus8sjwr',
+  projectId: 'proj_w9s8udk6w'
 });
 
 require('dotenv').config();
